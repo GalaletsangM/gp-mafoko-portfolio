@@ -1,0 +1,23 @@
+.navbar {
+    color: #272142;
+    background-color: #f9f7fe;
+}
+.navbar-collapse {
+    background-color: #b5b4d3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.navbar-toggler,
+.navbar-brand{
+    z-index: 1;
+}
+.navbar-brand {
+    font-size: 20px;
+}
