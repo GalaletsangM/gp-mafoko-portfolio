@@ -1,5 +1,46 @@
-@media (max-width: 540px) { 
-  .content-container {
+@media (max-width: 414px) {
+  .navbar-collapse {
+    font-size: 14px;
+  }
+}
+@media (min-width: 760px){
+    section {
+        height: 70vh;
+    }
+}
+@media (max-width: 750px) {
+  .navbar {
+    height: 8vh;
+  }
+  .navbar-collapse {
+    background-color: #b5b4d3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .navbar-toggler,
+  .navbar-brand {
+    z-index: 1;
+  }
+  .navbar-collapse .nav-link {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+  }
+  .navbar-collapse .nav-item:not(:last-child) {
+    border-bottom: 1px solid gray;
+    padding: 0.2em 4em;
+  }
+  .navbar-collapse .nav-item:not(:last-child) {
+    padding: 0.4em 7em;
+  }
+  .content-container,
+  .content {
     padding: 0;
   }
   .content {
@@ -16,50 +57,60 @@
     font-size: 45px;
     line-height: 1.2;
   }
-  #projects{
+  #projects {
     margin: 10px;
   }
- 
+  #about .container {
+    /*display: table;
+    position: absolute;*/
+    /*top: 0;
+    left: 0;*/
+    /*height: 100%;
+    width: 100%;
+    margin: auto;*/
+    display: table-cell;
+    vertical-align: middle;
+  }
 }
 @media (min-width: 768px) {
   .images--is-desktop {
     display: block;
   }
+  #about .container {
+    margin-top: 30px;
+  }
 }
-@media (max-width: 375px){
-    #about {
+@media (max-width: 375px) {
+  #about {
     padding-top: 5px;
   }
-  .profile-picture{
-    width: 200px;
+  .profile-picture {
+    width: 150px;
   }
 }
 
-form{
-    display: block;
+form {
+  display: block;
 }
 @media screen and (min-width: 960px) {
-    .animated.pop-in{
-        animation:1s both;
-    }
+  .animated.pop-in {
+    animation: 1s both;
+  }
 }
 @media screen and (min-width: 600px) {
-    section:nth-of-type(5) from{
-        min-width: 500px;
-    }  
+  section:nth-of-type(5) from {
+    min-width: 500px;
+  }
 }
-section:nth-of-type(5) form{
-    margin: 40px auto 0 auto;
+section:nth-of-type(5) form {
+  margin: 40px auto 0 auto;
 }
-@media (max-width: 390px){
-    #about{
-        padding: 5px;
-        padding-top: 40px;
-    }
-    .summary-text{
-        display: none;
-    }
-    .profile-picture{
-        width: 200px;
-    }
+@media (max-width: 390px) {
+  #about {
+    padding: 5px;
+    padding-top: 40px;
+  }
+  .profile-picture {
+    width: 200px;
+  }
 }
