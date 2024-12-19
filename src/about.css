@@ -1,9 +1,3 @@
-/*section {
-  box-sizing: border-box;
-  min-height: fit-content;
-  background-position: center;
-  height: unset;
-}*/
 #about {
   padding: 40px 20px;
   text-align: center;
@@ -15,7 +9,6 @@
 }
 .content-container {
   text-align: center;
-  height: 100vh;
   padding: 60px 20px 100px 20px;
 }
 h1 {
@@ -31,4 +24,22 @@ p {
 img {
   width: 400px;
   transition: all 150ms ease-in-out;
+}
+footer {
+  background-color: rgb(121, 65, 121);
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  color: white;
+}
+footer h3 {
+  font-size: 18px;
+  margin: 10px;
+}
+footer p {
+  font-size: 12px;
+  margin: 0 10px 0 10px;
+}
+.fa-brands {
+  margin: 10px;
 }

@@ -8,23 +8,22 @@
 body {
   font-family: var(--default-font-family);
   display: block;
-  /*border: 3px solid var(--branding-color);*/
   margin: 0;
 }
 html {
   scroll-behavior: smooth;
 }
 section {
-  box-sizing: border-box;
-  min-height: fit-content;
+  /*box-sizing: border-box;*/
+  position: relative;
 }
-
-.navbar {
+nav {
   color: var(--heading-color);
   background-color: var(--secondary-color);
   height: 7vh;
-  font-size: 22px;
+  font-size: 20px;
 }
+
 .navbar-brand {
   font-weight: bold;
 }
@@ -56,13 +55,13 @@ li a:hover {
 }
 @keyframes bgAnimatedGradient {
   0% {
-    background-position: 0% 85%;
+    background-position: 0% 65%;
   }
   50% {
     background-position: 100% 20%;
   }
   100% {
-    background-position: 0% 85%;
+    background-position: 0% 65%;
   }
 }
 

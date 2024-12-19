@@ -1,5 +1,3 @@
-
-
 function sendEmail() {
   Email.send({
     Host: "smtp.gmail.com",

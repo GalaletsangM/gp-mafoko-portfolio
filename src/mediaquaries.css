@@ -3,11 +3,7 @@
     font-size: 14px;
   }
 }
-@media (min-width: 760px){
-    section {
-        height: 70vh;
-    }
-}
+
 @media (max-width: 750px) {
   .navbar {
     height: 8vh;
@@ -60,17 +56,6 @@
   #projects {
     margin: 10px;
   }
-  #about .container {
-    /*display: table;
-    position: absolute;*/
-    /*top: 0;
-    left: 0;*/
-    /*height: 100%;
-    width: 100%;
-    margin: auto;*/
-    display: table-cell;
-    vertical-align: middle;
-  }
 }
 @media (min-width: 768px) {
   .images--is-desktop {
@@ -78,6 +63,7 @@
   }
   #about .container {
     margin-top: 30px;
+    height: auto;
   }
 }
 @media (max-width: 375px) {
@@ -105,7 +91,7 @@ form {
 section:nth-of-type(5) form {
   margin: 40px auto 0 auto;
 }
-@media (max-width: 390px) {
+@media (max-width: 540px) {
   #about {
     padding: 5px;
     padding-top: 40px;
